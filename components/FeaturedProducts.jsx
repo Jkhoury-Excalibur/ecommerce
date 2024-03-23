@@ -42,22 +42,21 @@ function Example() {
       animation="fade"
       navButtonsAlwaysVisible={true}
       cycleNavigation={true}
-      NextIcon=">" // Example to customize the icon
-      PrevIcon="<"
+      interval={5000}
+      // Additional styling or props to adjust arrow button positions
       navButtonsProps={{
-        className: "", // Apply a common class if needed
-        style: { backgroundColor: "#1661C2", borderRadius: 0 },
+        style: {
+          backgroundColor: "#0000000c",
+          borderRadius: 0,
+          color: "black",
+          height: "300px",
+          width: "25px",
+        },
       }}
       navButtonsWrapperProps={{
-        style: { bottom: "50px" },
-      }}
-      // Apply custom classes to individual buttons
-      navButtonProps={{
-        prev: {
-          className: "carouselNavButtonPrev",
-        },
-        next: {
-          className: "carouselNavButtonNext",
+        style: {
+          padding: "0px",
+          top: "calc(50% - 375px)", // Adjust this value to position the arrows vertically
         },
       }}
     >
