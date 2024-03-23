@@ -42,8 +42,8 @@ function Example() {
       animation="fade"
       navButtonsAlwaysVisible={true}
       cycleNavigation={true}
-      interval={5000}
-      // Additional styling or props to adjust arrow button positions
+      interval={6000}
+      indicators={false} // Add this line to hide the dots
       navButtonsProps={{
         style: {
           backgroundColor: "#0000000c",
@@ -56,7 +56,7 @@ function Example() {
       navButtonsWrapperProps={{
         style: {
           padding: "0px",
-          top: "calc(50% - 375px)", // Adjust this value to position the arrows vertically
+          top: "calc(50% - 325px)",
         },
       }}
     >
