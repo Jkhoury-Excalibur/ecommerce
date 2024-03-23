@@ -1,5 +1,3 @@
-// components/Navbar.js
-
 import React from "react";
 import {
   AppBar,
@@ -38,7 +36,9 @@ const Navbar = () => {
   );
 
   return (
-    <AppBar position="static">
+    <AppBar position="sticky">
+      {" "}
+      {/* Updated from "static" to "sticky" */}
       <Toolbar>
         {isMobile && (
           <IconButton
