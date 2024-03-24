@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 import FeaturedProducts from "../components/FeaturedProducts";
 import HeroSection from "../components/HeroSection"; // Import HeroSection
 import CollectionProducts from "@/components/CollectionSections";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         </Box>
         <CollectionProducts />
       </Box>
+      <Footer />
     </Box>
   );
 }
