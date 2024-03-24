@@ -2,18 +2,3 @@
   padding: 0;
   margin: 0;
 }
-
-/* Adjust the slick-slide component for spacing */
-.slick-slide {
-  padding: 0 15px; /* Add padding to create space between slides */
-}
-
-/* Ensure the slick-list component fills the container for center alignment */
-.slick-list {
-  margin: 0 auto;
-}
-/* App.css */
-.slide-enter-active,
-.slide-exit-active {
-  transition: transform 1s ease-in-out !important; /* Slows down the slide transition */
-}
