@@ -2,3 +2,8 @@
   padding: 0;
   margin: 0;
 }
+
+.slick-slide {
+  width: 200px;
+  padding: 20px;
+}

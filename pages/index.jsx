@@ -15,7 +15,9 @@ export default function Home() {
         <Box sx={{ paddingTop: "50px" }}>
           <FeaturedProducts />
         </Box>
-        <CollectionProducts />
+        <Box sx={{ padding: "20px" }}>
+          <CollectionProducts />
+        </Box>
       </Box>
       <Footer />
     </Box>
